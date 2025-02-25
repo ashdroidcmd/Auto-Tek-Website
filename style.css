@@ -8,6 +8,7 @@ html {
 }
 .bgimage{
     background-image: url("./assets/herocover.jpg");
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -41,28 +42,6 @@ html {
     border-radius: 20px;
 }
 
-.model-image{
-    background-image: url("./assets/models.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: fit-content;
-    width:max-content;
-    padding-bottom: 1000px;
-    border-bottom: 100px;
-    margin-bottom: 100px;
-}
-
-.parts-image{
-    background-image: url("./assets/parts.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: fit-content;
-    width:max-content;
-    padding-bottom: 1000px;
-    border-bottom: 100px;
-    margin-bottom: 100px;
-}
-
 .image-size{
     height: 200px;
     width: 200px;
@@ -80,13 +59,14 @@ html {
     /* border: 1px solid #ddd; */
 }
 .logo-container img {
-    max-width: 200px; /* Adjust logo size */
+    max-width: 150px; /* Adjust logo size */
     height: auto;
 }
 
 /* 24/7 SECTION */
 .bg-image2{
     background-image: url(./assets/herocover2.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
