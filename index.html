@@ -13,39 +13,45 @@
 
 <!-- ------- NAVIGATION AND HEADER ---------- -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
-    <div class="container container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="./assets/Logo.png" width="200px">
-      </a>
+  <div class="container d-flex justify-content-between align-items-center">
+    
+    <!-- Left-aligned logo -->
+    <a class="navbar-brand" href="#">
+      <img src="./assets/Logo.png" loading="lazy" width="200px">
+    </a>
 
-      <button class="navbar-toggler btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!-- Toggler for mobile view -->
+    <button class="navbar-toggler btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" 
+      aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse " id="navbarsExample05">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link text-white fs-4" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fs-4" href="#service-page">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white fs-4" href="#location-section">Location</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn btn-dark fs-4 btn-style" id="navbar-btn" href="#contact-form">Contact Us</a>
-          </li>
-        </ul>
-      </div>
+    <!-- Right-aligned menu -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarsExample05">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white fs-4 px-3" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white fs-4 px-3" href="#service-page">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white fs-4 px-3" href="#location-section">Location</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-dark fs-4 btn-style px-3" id="navbar-btn" href="#contact-form">Contact Us</a>
+        </li>
+      </ul>
     </div>
+
+  </div>
 </nav>
 
 <!-- ---------- HERO SECTION --------- -->
 <section class="text-light text-center mb-4 bgimage ptopbtm">
         
     <div class="container">
-        <img id="logo" class="img-fluid" src="./assets/Logo-removebg-preview.png" height="100%">
+        <img id="logo" class="img-fluid" loading="lazy" src="./assets/Logo-removebg-preview.png" height="100%">
         <p class="fs-1 fw-bold">Maintenance and Repair</p>
         <p class="lead">At Auto-Tek, we're committed to earning your trust by providing the highest quality car repair services at a fair price</p>
         <a class="btn btn-lg fw-bold" id="hero-btn" href="#contact-form">BOOK A SERVICE</a>
@@ -62,7 +68,7 @@
     <div class="row">
       <div class="col-md-4">
         <div class="mb-4">
-          <img class="image-size" src="./assets/Services Logo/Fluid Changes.png">
+          <img class="image-size" src="./assets/Services Logo/Fluid Changes.png" loading="lazy">
           
           <div class="card-body">
             <p class="text-center text-danger fw-bold fs-5">FLUID CHANGES</p>
@@ -73,7 +79,7 @@
 
       <div class="col-md-4">
         <div class="mb-4">
-          <img class="image-size" src="./assets/Services Logo/Brake System.png" >
+          <img class="image-size" src="./assets/Services Logo/Brake System.png" loading="lazy">
           
           <div class="card-body">
             <p class="text-center text-danger fw-bold fs-5">BRAKE REPAIR & REPLACEMENT</p>
@@ -84,7 +90,7 @@
 
       <div class="col-md-4">
         <div class="mb-4">
-          <img class="image-size" src="./assets/Services Logo/Engine.png" >
+          <img class="image-size" src="./assets/Services Logo/Engine.png" loading="lazy">
           
           <div class="card-body">
             <p class="text-center text-danger fw-bold fs-5">ENGINE DIAGNOSTICS AND TUNE-UPS</p>
@@ -95,7 +101,7 @@
 
       <div class="col-md-4">
         <div class="mb-4">
-          <img class="image-size" src="./assets/Services Logo/Suspension Systems.png" >
+          <img class="image-size" src="./assets/Services Logo/Suspension Systems.png" loading="lazy">
           
           <div class="card-body">
             <p class="text-center text-danger fw-bold fs-5">SUSPENSION SYSTEM REPAIR</p>
@@ -106,7 +112,7 @@
 
       <div class="col-md-4">
         <div class="mb-4">
-          <img class="image-size" src="./assets/Services Logo/Battery and Electrical.png" >
+          <img class="image-size" src="./assets/Services Logo/Battery and Electrical.png" loading="lazy">
           
           <div class="card-body">
             <p class="text-center text-danger fw-bold fs-5">ELECTRICAL SYSTEM DIAGNOSTICS & REPAIR</p>
@@ -119,7 +125,7 @@
 
       <div class="col-md-4">
         <div class="mb-4">
-          <img class="image-size" src="./assets/Services Logo/Steering System.png" >
+          <img class="image-size" src="./assets/Services Logo/Steering System.png" loading="lazy">
           
           <div class="card-body">
             <p class="text-center text-danger fw-bold fs-5">STEERING SYSTEM REPAIR</p>
@@ -130,7 +136,7 @@
 
       <div class="col-md-4">
         <div class="mb-4">
-          <img class="image-size" src="./assets/Services Logo/Wheel Alignment.png" >
+          <img class="image-size" src="./assets/Services Logo/Wheel Alignment.png" loading="lazy">
           
           <div class="card-body">
             <p class="text-center text-danger fw-bold fs-5">TIRE ROTATION, REPAIR & REPLACEMENT</p>
@@ -141,7 +147,7 @@
 
       <div class="col-md-4">
         <div class="mb-4">
-          <img class="image-size" src="./assets/Services Logo/Air Conditioning.png">
+          <img class="image-size" src="./assets/Services Logo/Air Conditioning.png"loading="lazy">
           
           <div class="card-body">
             <p class="text-center text-danger fw-bold fs-5">AIR CONDITIONING AND HEATING REPAIR</p>
@@ -152,7 +158,7 @@
 
       <div class="col-md-4">
         <div class="mb-4">
-          <img class="image-size" src="./assets/Services Logo/Transmission.png" >
+          <img class="image-size" src="./assets/Services Logo/Transmission.png" loading="lazy">
           
           <div class="card-body">
             <p class="text-center text-danger fw-bold fs-5">TRANSMISSION REPAIR AND MAINTENANCE</p>
@@ -170,98 +176,98 @@
   <h1 class="text-center fw-bold text-light">We Service Most Makes & Models</h1>
 
   <div class="container mt-5">
-    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-6 g-1">
+    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 g-1">
       
         <div class="col" >
             <div class="logo-container">
-                <img src="./assets/Models/pngwing.com (1).png" alt="Logo 1">
+                <img src="./assets/Models/pngwing.com (1).png" alt="Logo 1" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-                <img src="./assets/Models/pngwing.com (2).png" alt="Logo 2">
+                <img src="./assets/Models/pngwing.com (2).png" alt="Logo 2" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-                <img src="./assets/Models/pngwing.com (3).png" alt="Logo 3">
+                <img src="./assets/Models/pngwing.com (3).png" alt="Logo 3" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-                <img src="./assets/Models/pngwing.com (4).png" alt="Logo 4">
+                <img src="./assets/Models/pngwing.com (4).png" alt="Logo 4" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-                <img src="./assets/Models/pngwing.com (5).png" alt="Logo 5">
+                <img src="./assets/Models/pngwing.com (5).png" alt="Logo 5" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Models/pngwing.com (6).png" alt="Logo 6">
+              <img src="./assets/Models/pngwing.com (6).png" alt="Logo 6" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Models/pngwing.com (8).png" alt="Logo 7">
+              <img src="./assets/Models/pngwing.com (8).png" alt="Logo 7" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Models/pngwing.com (7).png" alt="Logo 8">
+              <img src="./assets/Models/pngwing.com (7).png" alt="Logo 8" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Models/pngwing.com (9).png" alt="Logo 9">
+              <img src="./assets/Models/pngwing.com (9).png" alt="Logo 9" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Models/pngwing.com (10).png" alt="Logo 10">
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="logo-container">
-              <img src="./assets/Models/pngwing.com (11).png" alt="Logo 11">
-            </div>
-        </div>
-        <div class="col">
-            <div class="logo-container">
-              <img src="./assets/Models/pngwing.com (12).png" alt="Logo 12">
-            </div>
-        </div>
-        <div class="col">
-            <div class="logo-container">
-              <img src="./assets/Models/pngwing.com (13).png" alt="Logo 13">
-            </div>
-        </div>
-        <div class="col">
-            <div class="logo-container">
-              <img src="./assets/Models/pngwing.com (14).png" alt="Logo 14">
-            </div>
-        </div>
-        <div class="col">
-            <div class="logo-container">
-              <img src="./assets/Models/pngwing.com (15).png" alt="Logo 15">
+              <img src="./assets/Models/pngwing.com (10).png" alt="Logo 10" loading="lazy">
             </div>
         </div>
 
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Models/pngwing.com (16).png" alt="Logo 16">
+              <img src="./assets/Models/pngwing.com (11).png" alt="Logo 11" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Models/pngwing.com (18).png" alt="Logo 18">
+              <img src="./assets/Models/pngwing.com (12).png" alt="Logo 12" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Models/pngwing.com.png" alt="Logo 20">
+              <img src="./assets/Models/pngwing.com (13).png" alt="Logo 13" loading="lazy">
+            </div>
+        </div>
+        <div class="col">
+            <div class="logo-container">
+              <img src="./assets/Models/pngwing.com (14).png" alt="Logo 14" loading="lazy">
+            </div>
+        </div>
+        <div class="col">
+            <div class="logo-container">
+              <img src="./assets/Models/pngwing.com (15).png" alt="Logo 15" loading="lazy">
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="logo-container">
+              <img src="./assets/Models/pngwing.com (16).png" alt="Logo 16" loading="lazy">
+            </div>
+        </div>
+        <div class="col">
+            <div class="logo-container">
+              <img src="./assets/Models/pngwing.com (18).png" alt="Logo 18" loading="lazy">
+            </div>
+        </div>
+        <div class="col">
+            <div class="logo-container">
+              <img src="./assets/Models/pngwing.com.png" alt="Logo 20" loading="lazy">
             </div>
         </div>
     </div>
@@ -277,77 +283,77 @@
   </div>
 
   <div class="container mt-5">
-    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-1">
+    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 g-1">
       
         <div class="col" >
             <div class="logo-container">
-                <img src="./assets/Parts and Services/pngwing.com.png" alt="Logo 1">
+                <img src="./assets/Parts and Services/pngwing.com.png" alt="Logo 1" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Parts and Services/pngwing.com (1).png" alt="Logo 2">
+              <img src="./assets/Parts and Services/pngwing.com (1).png" alt="Logo 2" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-                <img src="./assets/Parts and Services/pngwing.com (2).png" alt="Logo 3">
+                <img src="./assets/Parts and Services/pngwing.com (2).png" alt="Logo 3" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-                <img src="./assets/Parts and Services/pngwing.com (3).png" alt="Logo 4">
+                <img src="./assets/Parts and Services/pngwing.com (3).png" alt="Logo 4" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-                <img src="./assets/Parts and Services/pngwing.com (4).png" alt="Logo 5">
+                <img src="./assets/Parts and Services/pngwing.com (4).png" alt="Logo 5" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Parts and Services/pngwing.com (5).png" alt="Logo 6">
+              <img src="./assets/Parts and Services/pngwing.com (5).png" alt="Logo 6" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Parts and Services/pngwing.com (6).png"6 alt="Logo 7">
+              <img src="./assets/Parts and Services/pngwing.com (6).png"6 alt="Logo 7" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Parts and Services/pngwing.com (7).png" alt="Logo 8">
+              <img src="./assets/Parts and Services/pngwing.com (7).png" alt="Logo 8" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Parts and Services/pngwing.com (8).png" alt="Logo 9">
+              <img src="./assets/Parts and Services/pngwing.com (8).png" alt="Logo 9" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Parts and Services/pngwing.com (9).png" alt="Logo 10">
+              <img src="./assets/Parts and Services/pngwing.com (9).png" alt="Logo 10" loading="lazy">
             </div>
         </div>
 
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Parts and Services/pngwing.com (10).png" alt="Logo 11">
+              <img src="./assets/Parts and Services/pngwing.com (10).png" alt="Logo 11" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Models/pngwing.com (12).png" alt="Logo 12">
+              <img src="./assets/Models/pngwing.com (12).png" alt="Logo 12" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Parts and Services/pngwing.com (11).png" alt="Logo 13">
+              <img src="./assets/Parts and Services/pngwing.com (11).png" alt="Logo 13" loading="lazy">
             </div>
         </div>
         <div class="col">
             <div class="logo-container">
-              <img src="./assets/Parts and Services/pngwing.com (12).png" alt="Logo 14">
+              <img src="./assets/Parts and Services/pngwing.com (12).png" alt="Logo 14" loading="lazy">
             </div>
         </div>
     </div>
@@ -424,7 +430,7 @@
 <footer class="bg-black">
   <div class="container">
     <footer class="py-4">
-      <a class="d-flex justify-content-center py-3 img-fluid" href="#"> <img src="./assets/Logo.png" height="120px"> </a>
+      <a class="d-flex justify-content-center py-3 img-fluid" href="#"> <img src="./assets/Logo.png" height="120px" loading="lazy"> </a>
       <p class="text-center text-white">At Auto-Tek we're committed to earning your trust by providing the highest quality car repair services at a fair price.</p>
       <p class="text-center text-white">Address: Corella, Bohol, Philippines | Contact #: 0991 234 5678</p>
       <p class="text-center text-white">© 2025 By Auto-Tek</p>
