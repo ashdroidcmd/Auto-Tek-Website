@@ -95,3 +95,6 @@ html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 10px;
 }
+.text-red{
+    color: rgb(255, 23, 23);
+}
