@@ -2,21 +2,47 @@ html {
     scroll-padding-top: 80px; /* Adjust this value based on your navbar height */
     scroll-behavior: smooth;
 }
-
 *{
     font-family: tahoma;
 }
-.bgimage{
+
+/* Navbar Section */
+
+/* Navbar Custom Button */
+#navbar-btn{ 
+    background-color: rgb(223, 27, 27);
+    color: white;
+    transition: 0.6s;
+}
+#navbar-btn:hover{
+    background-color: rgb(20, 0, 0);
+    color:rgb(223, 27, 27);
+}
+
+/* Nav Item Animations */
+.nav-item{
+    transition: transform 0.3s ease-in-out;
+}
+.nav-item:hover{
+    transform: scale(1.2);
+}
+
+
+/* Hero Section */
+.hero-bg-image{
     background-image: url("./assets/herocover.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.ptopbtm{
+
+/* Hero Custom Padding */
+.p-hero{
     padding-top: 200px;
     padding-bottom: 310px;
 }
 
+/* Hero Custom Button */
 #hero-btn{
     background-color: rgb(223, 27, 27);
     color: white;
@@ -27,54 +53,60 @@ html {
     color:rgb(223, 27, 27);
 }
 
-#navbar-btn{
-    background-color: rgb(223, 27, 27);
-    color: white;
-    transition: 0.6s;
-}
 
-#navbar-btn:hover{
-    background-color: rgb(20, 0, 0);
-    color:rgb(223, 27, 27);
-}
-
-#logo{
-    border-radius: 20px;
-}
-
-.image-size{
-    height: 200px;
-    width: 200px;
+/* Services Section */
+.services-logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
 }
 
+.services-logo-animation{
+    transition: transform 0.3s ease-in-out;
+    background-color: white;
+}
+
+.services-logo-animation:hover{
+    transform: scale(1.1);
+    background-color: white;
+}
+
+
+
+/* Maker and Models And Parts and Service Brands */
 .logo-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px; /* Adjust based on logo size */
     /* border: 1px solid #ddd; */
+    transition: transform 0.3s ease-in-out;
 }
+
+.logo-container:hover {
+    transform: scale(1.5);
+}
+
 .logo-container img {
     max-width: 150px; /* Adjust logo size */
     height: auto;
 }
 
+
 /* 24/7 SECTION */
-.bg-image2{
+.bg-247{
     background-image: url(./assets/herocover2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.bg-image-pd{
+.p-247{
     padding-top: 100px;
     padding-bottom: 100px;
 }
 /* locaiton testing  */
+
 
 .location-section {
     text-align: center;
@@ -96,5 +128,52 @@ html {
     padding: 10px;
 }
 .text-red{
-    color: rgb(255, 23, 23);
+    color: rgb(255, 27, 27);
+}
+
+
+/* Animation Sections */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* When the element becomes visible */
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Animation on small devices */
+@media (max-width: 576px) {
+   
+    .nav-item{
+        transition: transform 0.3s ease-in-out;
+    }
+    .nav-item:hover{
+        transform: scale(1.1);
+    }
+
+    .services-logo-animation{
+        transition: transform 0.3s ease-in-out;
+        background-color: white;
+    }
+    
+    .services-logo-animation:hover{
+        transform: scale(1.0);
+        background-color: white;
+    }
+    
+    .logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px; /* Adjust based on logo size */
+        /* border: 1px solid #ddd; */
+        transition: transform 0.3s ease-in-out;
+    }
+    .logo-container:hover {
+        transform: scale(1.2);
+    }
 }
