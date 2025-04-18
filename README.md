@@ -1,5 +1,5 @@
-# Auto TEk - Auto Service Business Website
-Auto TEk is a modern and responsive website designed for an auto service business. This is the first version of the website, featuring a clean and user-friendly interface with interactive animations and responsive design, making it accessible on various devices.
+# Auto Tek - Auto Service Business Website
+Auto Tek is a modern and responsive website designed for an auto service business. This is the first version of the website, featuring a clean and user-friendly interface with interactive animations and responsive design, making it accessible on various devices.
 
 ## Features
 - Responsive Design: The website is fully responsive, adapting to all screen sizes, from mobile phones to desktop monitors.
